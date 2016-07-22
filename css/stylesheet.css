@@ -1,0 +1,26 @@
+#header {
+	background-color: black;
+	text-align: center;
+	color:white;
+}
+
+
+
+#movie {
+	text-align: center;
+}
+
+.img {
+	width:510px;
+	height:280px;
+	border-radius: 10px;
+	border:2px solid #ffbe4d;
+}
+
+#background {
+	background: url(http://www.traversecityfilmfest.org/statetheatre/historyphotos/interior.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

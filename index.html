@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- stylesheet.css link -->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie Theatre</title>
+</head>
+<body ng-app="myModule" id="background">
+	<div class="container-fluid">
+		<div class="row" id="header">
+			<h1>Choose Your Movie</h1>
+		</div> <!--end of row-->
+
+		<div class="row">
+			<div class="col-md-12" id="movie">
+				<a href="#/"><button type="button" class="btn btn-warning">STAR WARS</button></a>  
+				<a href="#/view2"><button type="button" class="btn btn-warning">LORD OF THE RINGS</button></a>
+				<a href="#/view3"><button type="button" class="btn btn-warning">TITANIC</button></a>
+				<a href="#/view4"><button type="button" class="btn btn-warning">TRANSFORMERS</button></a>
+
+				<div ng-view></div>
+			</div>
+		</div>
+			
+		
+
+	</div> <!--end of container-->
+	
+
+
+	<!-- angularJS CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<!-- ng-route CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- script.js link -->
+	<script src="script.js"></script>
+	<!-- controller.js link -->
+	<script src="controller.js"></script>
+</body>
+</html>
